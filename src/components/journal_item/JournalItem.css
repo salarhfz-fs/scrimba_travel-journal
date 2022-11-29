@@ -1,0 +1,51 @@
+article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1.6rem 1rem;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.journal-item-img {
+    width: 12.5rem;
+    height: 16.8rem;
+    border-radius: 5px;
+}
+
+.journal-item-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 0;
+}
+
+.journal-item-location {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-right: 1.6rem;
+}
+
+a {
+    color: #918E9B;
+    text-decoration-line: underline;
+}
+
+h2 {
+    margin-top: .4rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: #2B283A;
+}
+
+p {
+    color: #2B283A;
+}
